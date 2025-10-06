@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(203, 206, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: auto;
+    background: red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.con {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    overflow: hidden;
+    height: 100vh;
+    width: 50vh;
+    border: 2px solid black;
+}
+.con .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.noteB {
+    background-color: rgb(194, 191, 184);
+    height: 65px;
+    width: 30vh;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.con .box .btnS {
+    text-align: center;
+    background-color: rgb(194, 193, 201);
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    background-color: rgb(17, 187, 255);
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.con .noteAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* overflow: scroll; */
+    flex-grow: 0;
+}
+
+.con2 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    overflow: hidden;
+    background-color: rgba(142, 182, 159, 0.575);
+}
+
+.myNote {
+    text-align: center;
+    border-radius: 3px;
+    margin: 10px 10px;
+    padding: 20px;
+    min-height: auto;
+    width: 45vh;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.btnDl {
+    height: 30px;
+    width: 24px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border-radius: 50px;
+}
+p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myNote:hover {
+    background-color: rgb(235, 43, 43);
+}
+.btnDl:hover {
+    background-color: brown;
+}
+.con .box .btnS:hover {
+    background-color: rgb(197, 125, 30);
+}
